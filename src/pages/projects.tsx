@@ -1,4 +1,3 @@
-import Images from "../assets/projects/images";
 import { pages_interface } from "../utils/interfaces";
 
 export default function Projects(props: pages_interface) {
