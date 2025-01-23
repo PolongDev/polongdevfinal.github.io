@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --cname ryannkim327.is-a.dev"
+    "deploy": "gh-pages -d dist --cname polongdev.github.io"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
