@@ -52,27 +52,6 @@ export default function Hero(props: pages_interface) {
           }}
           className="px-2 border-2 dark:border-white border-black border-solid rounded-full text-sm"
           onClick={() => {
-            heroButton("projects");
-          }}
-        >
-          My Projects
-        </motion.button>
-        <motion.button
-          initial={{
-            opacity: 0,
-            marginLeft: "-50px",
-            marginRight: "-150px",
-          }}
-          animate={{
-            opacity: 1,
-            marginLeft: 0,
-            marginRight: 0,
-          }}
-          transition={{
-            delay: 1,
-          }}
-          className="px-2 border-2 border-black dark:border-white border-solid rounded-full text-sm"
-          onClick={() => {
             heroButton("contact");
           }}
         >
