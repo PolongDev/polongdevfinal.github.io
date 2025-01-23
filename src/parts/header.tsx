@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import prof from "./../assets/prof.jpg";
 import { default_interface, link_interface } from "./../utils/interfaces.tsx";
 import {
-  faFolderOpen,
   faIdCard,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
@@ -77,9 +76,6 @@ export default function Header(props: default_interface) {
       <nav className="flex flex-row list-none">
         <List link="about" icon={faUser}>
           About
-        </List>
-        <List link="projects" icon={faFolderOpen}>
-          Projects
         </List>
         <List link="contact" icon={faIdCard}>
           Contact
