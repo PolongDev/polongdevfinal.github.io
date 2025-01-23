@@ -2,7 +2,6 @@ function Hexagon(props: any) {
   const _hex = {
     clipPath: `polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)`,
     backgroundColor: "green",
-    backgroundImage: `url('/assets/projects/${props.src}')`,
   };
   return (
     <div
